@@ -1,0 +1,908 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.cisti
+{
+	clear: both;
+}
+#meni
+{
+	width: 100%;
+	height: 100px;
+	background-color: #ffbf00;
+}
+#sadrzaj
+{
+	width: 100%;
+	min-height: 400px;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#futer
+{
+	width: 100%;
+	height: 200px;
+	padding-top: 10px;
+	background-color: #0080ff;
+}
+#naslov
+{
+	height: 85px;
+	width: 25%;
+	padding-top: 15px;
+	padding-left: 30px;
+	float: left;
+}
+#naslov h1 a
+{
+	text-decoration: none;
+	color: #0040ff;
+}
+#naslov h3
+{
+	font-size: 12px;
+}
+#meniSadrzaj
+{
+	height: 100px;
+	width: 55%;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+#meniSadrzaj h5
+{
+	text-align: center;
+	margin: 40px auto;
+}
+#registracija
+{
+	float: right;
+	height: 30px;
+	width:15%;
+	padding-top: 70px;
+	padding-right: 10px;
+	text-align: right;
+}
+#registracija a
+{
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+}
+#logovanje
+{
+	width: 500px;
+	min-height: 200px;
+	margin: 100px auto;
+	padding: 10px;
+	border: 3px solid #0080ff;
+	border-radius: 50px;
+	background-color: #ffbf00;
+}
+.red
+{
+	width: 1024px;
+	margin-top: 30px;
+}
+.centar
+{
+	margin: 0 auto;
+	width: 1024px;
+	height: auto;
+}
+.red .kolona{
+	width : 50%;
+	margin: 0 auto;
+	float:left;
+	text-align:center;
+}
+.red .kolona ul{
+	list-style: none;
+}
+.red .kolona li{
+	margin-bottom: 3px;
+}
+.red .kolona a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+}
+#formLog
+{
+	padding: 20px;
+}
+#formLog table
+{
+	width: 100%;
+}
+#formLog table tr
+{
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#formLog table tr td
+{
+	padding: 5px;
+	width: 100px;
+}
+#logovanje input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#logovanje input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#logovanje input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#logovanje .prva
+{
+	width: 25%;
+}
+.dugme
+{
+	text-align: right;
+}
+#futer #desna
+{
+	font-weight: bold;
+}
+#regForma
+{
+	width: 500px;
+	min-height: 200px;
+	margin: 100px auto;
+	padding: 10px;
+	background-color: #808080;
+}
+#regForma input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#regForma input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#regForma input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#regForma table
+{
+	width: 100%;
+	font-weight: bold;
+	padding: 15px;
+}
+#okvirMeni
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	padding-top: 50px;
+}
+#okvirMeni ul
+{
+	list-style: none;
+	padding-top: 20px;
+}
+#okvirMeni ul li
+{
+	float: left;
+	padding-right: 20px;
+}
+#okvirMeni ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0080ff;
+	font-size: 20px;
+	font-weight: bold;
+}
+#odjava
+{
+	float: right;
+	height: 70px;
+	padding-top: 30px;
+}
+#odjava h5
+{
+	float: left;
+	text-transform: uppercase;
+	color: #0040ff;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+#odjava a
+{
+	float: left;
+	text-decoration: none;
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+}
+#sadrzaj h2
+{
+	padding: 10px;
+}
+#sadrzaj .post
+{
+	width: 70%;
+	min-height: 220px;
+	margin: 10px auto;
+	padding: 5px;
+}
+.post .postSlika
+{
+	width: 40%;
+	height: 200px;
+	float: left;
+	margin:5px;
+}
+.postSlika img
+{
+	width: 100%;
+	height: 100%;
+}
+.post .tekst
+{
+	width: 50%;
+	float: left;
+}
+.post .tekst
+{
+	width: 50%;
+	float: left;
+	margin:3px;
+}
+.tekst h5
+{
+	margin: 2px;
+	font-size: 20px;
+}
+.tekst h6
+{
+	margin: 2px;
+	font-size: 12px;
+}
+.post .dugmePost
+{
+	width: 50%;
+	float: right;
+	text-align: right;
+	margin-right: 5px;
+
+}
+.post .dugmePost a
+{
+	text-decoration: none;
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.tekst p
+{
+	font-size: 14px;
+	margin-top: 5px;
+}
+#navigacija
+{
+	margin:0px auto;
+	width: 30%;
+	text-align: center;
+}
+#navigacija span
+{
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#navigacija span a
+{
+	text-decoration: none;
+	background-color: #008CBA;
+    border: none;
+    color: white;
+}
+#navigacija .pocetak
+{
+	color: red;
+}
+#navigacija .kraj
+{
+	color: red;
+}
+.slicica
+{
+	width: 50%;
+	margin: 10px auto;
+	height: 70%;
+}
+.naslov
+{
+	width: 50%;
+	margin: 10px auto;
+	height: auto;
+}
+.album
+{
+	width: 30%;
+	margin: 10px auto;
+	height: 300px;
+	padding: 5px;
+	background-color: #cc9900;
+	float: left;
+	margin: 10px;
+}
+#sadrzaj a
+{
+	text-decoration: none;
+}
+.album h5
+{
+	font-size: 20px;
+	color: #0000ff;
+	text-align: center;
+}
+.album img
+{
+	width: 90%;
+	height: 100%;
+}
+.slika
+{
+	width: 30%;
+	height: 220px;
+	float: left;
+	margin: 5px auto;
+	padding: 5px;
+}
+.slika img
+{
+	width:100%;
+	height:100%;
+}
+#sadrzaj h3
+{
+	margin-left: 15px;
+	width: 30%;
+}
+#sadrzaj h5
+{
+	margin-left: 15px;
+}
+#sadrzaj fieldset
+{
+	width: 50%;
+	margin: 0px auto;
+	font-size: 17px;
+	padding: 5px;
+}
+#mojeNarudzbine
+{
+	width: 50%;
+	margin: 0px auto;
+	padding: 10px;
+}
+#rezervacija
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#rezervacija input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#rezervacija input[type=checkbox]
+{
+	width: 15px;
+	height: 15px;
+	background: #333;
+	border-radius: 50px;
+}
+#rezervacija table tr td
+{
+	padding: 5px;
+}
+#dllDogadjaj
+{
+	width: 100%;
+	height: 100%;
+}
+#podaci
+{
+	width: 60%;
+	margin: 20px auto;
+	padding: 10px;
+	font-size: 18px;
+}
+#adresa
+{
+	width: 60%;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 18px;
+}
+#adresa img
+{
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+}
+h3
+{
+	font-size: 25px;
+	color: #000099;
+}
+#sadrzaj .adminSadrzaj
+{
+	margin: 20px auto;
+	width: 50%;
+}
+#adminMeni
+{
+	margin-top: 0px;
+	width: 50%;
+}
+#adminMeni ul
+{
+	list-style: none;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#adminMeni ul li
+{
+	float: left;
+	padding-right: 20px;
+}
+#adminMeni ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0000cc;
+	font-size: 15px;
+	font-weight: bold;
+}
+#adminPanel .forma
+{
+	margin: 50px auto;
+	width: 50%;	
+}
+.forma table
+{
+	width: 100%;
+}
+.forma table tr td
+{
+	padding: 5px;
+}
+.forma table tr td input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.forma table tr td input[type=date] 
+{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.forma table tr td select 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.forma table tr td input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.forma table tr td input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.forma table tr td input[type=reset] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#adminPanel .prikaz
+{
+	margin: 50px auto;
+	width: 50%;	
+}
+.prikaz table
+{
+	width: 100%;
+}
+.prikaz table tr td
+{
+	padding: 5px;
+}
+#adminPanel #izmena
+{
+	margin: 50px auto;
+	width: 50%;	
+}
+#adminPanel #izmena table
+{
+	width: 100%;
+}
+#adminPanel #izmena table tr td
+{
+	padding: 5px;
+}
+#adminPanel #izmena table tr td input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#adminPanel #izmena table tr td select 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#izmena h3
+{
+	width: 100%;
+}
+#sadrzaj h5
+{
+	width: 50%;
+	margin: 20px auto;
+	font-size: 25px;
+	text-align: center;
+	color: #0080ff;
+}
+#sadrzaj .forma
+{
+	width: 50%;
+	margin: 10px auto;
+}
+.prikaz #adminGal
+{
+	width: 100%;
+}
+#adminPanel
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#forma
+{
+	width: 50%;
+	margin: 0 auto;
+}
+#filter
+{
+	width: 50%;
+	margin: 0 auto;
+}
+#filter table
+{
+	width: 100%;
+}
+#forma h3
+{
+	width: 100%;
+}
+.prikaz table tr td input[type=reset] 
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.prikaz table tr td input[type=submit] 
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#forma table tr td input[type=button] 
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#forma
+{
+	width: 60%;
+}
+#filter
+{
+	width: 60%;
+}
+#rezervacija .alert
+{
+	width: 50%;
+	margin: 10px auto;
+	font-size: 17px;
+	color: #00cccc;
+}
+#rezervacija .alert
+{
+	width: 50%;
+	margin: 10px auto;
+	font-size: 17px;
+	color: #0000cc;
+	font-weight: bold;
+	border: 2px #000 solid;
+	padding: 5px;
+}
+#rezervacija .alert a
+{
+	color: #ff0000;
+	text-transform: uppercase;
+}
+#mojeNarudzbine table
+{
+	width: 100%;
+	padding: 5px;
+	font-weight: bold;
+}
+#mojeNarudzbine table tr
+{
+	padding: 10px;
+	background-color: red;
+}
+#mojeNarudzbine table tr td
+{
+	text-align: center;
+	padding: 5px;
+	color: #0040ff;
+}
+#mojeNarudzbine table tr td img
+{
+	width: 32px;
+	height: 32px;
+}
+#poruka
+{
+	width: 50%;
+	margin: 20px auto;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #00ff00;
+	padding: 10px;
+	text-align: center;
+}
+#filter table tr td
+{
+	padding: 5px;
+}
+#success
+{
+	width: 50%;
+	margin: 20px auto;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #00ff00;
+	padding: 10px;
+	text-align: center;
+}
+#error
+{
+	width: 50%;
+	margin: 20px auto;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #ff0000;
+	padding: 10px;
+	text-align: center;
+}
+#slike input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 2px;
+    cursor: pointer;
+}
+#slike input[type=reset] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 2px;
+    cursor: pointer;
+}
+#obavestenje
+{
+	width: 50%;
+	margin:10px auto;
+}
+#obavestenje h3
+{
+	width: 60%;
+}
+#proslo
+{
+	width: 30%;
+	background-color: #ff0000;
+	float: right;
+	height: 30px;
+	text-align: center;
+	padding-top: 8px;  
+	color: #fff;
+}
+#autor
+{
+	width: 50%;
+	margin: 20px auto;
+}
+#autor h3
+{
+	width: 100%;
+}
+#tasteri
+{
+	width: 100%;
+	margin-top: 220px;
+}
+#slike
+{
+	min-height: 350px;
+}
+textarea
+{
+	min-height: 100px;
+	width: 100%;
+}
+#adminPanel #izmena
+{
+	margin: 50px auto;
+	width: 50%;	
+}
+#izmena table
+{
+	width: 100%;
+}
+#izmena table tr td
+{
+	padding: 5px;
+}
+#izmena table tr td input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#izmena table tr td input[type=date] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.prikaz table tr td img
+{
+	width: 32px;
+	height: 32px;
+}
